@@ -31,7 +31,7 @@ function browserSync(done) {
     server: {
       baseDir: "./"
     },
-    port: 443
+    port: 80
   });
   done();
 }
